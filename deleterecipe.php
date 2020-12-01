@@ -122,6 +122,7 @@ $conn->close(); //close the connection
                </select>
             </div>
             <button type="submit" class="btn btn-warning" name="submit" value="Submit">Delete recipe</button>
+                <!-- if pressing cancel, the user is redirected to the main page -->
             <button type="cancel" class="btn btn-secondary" name="cancel" value="Cancel" onclick="history.back();" >Cancel</button>
          </form>
           
