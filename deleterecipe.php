@@ -122,7 +122,7 @@ $conn->close(); //close the connection
                </select>
             </div>
             <button type="submit" class="btn btn-warning" name="submit" value="Submit">Delete recipe</button>
-            <button type="cancel" class="btn btn-secondary" name="cancel" value="Cancel">Cancel</button>
+            <button type="cancel" class="btn btn-secondary" name="cancel" value="Cancel" onclick="history.back();" >Cancel</button>
          </form>
           
        </div>
